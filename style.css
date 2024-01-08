@@ -1,0 +1,51 @@
+
+/* common style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* nav related style */
+nav{
+    display: flex;     /* display: flex use kora hoy nav bar er likha golo pasha pashi asar jnno; */
+
+    justify-content: space-around;     /* nav er j item golo ace oigolo 2ta 2 pase pathanor jnno aita use kora hoyece; */
+
+    align-items: center;    /* vertically same borabor item golo asar jnno */
+
+
+}
+.nav-title{
+color: #181818;
+font-size: 45px;
+font-weight: 800;
+}
+
+nav >ul{
+    display: flex;   /* nav er just niche j ul golo ace sodo oigolo pasa pasa jaoar jnno aita use kora hoyece; */
+
+    align-items: center;        /* ul er list golo o vertically same thakar jnno aita use kora hoyece; */
+
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{  /* li er j link ace oigolo style korar jnno aita */
+    text-decoration: none;
+    color: #474747;
+}
